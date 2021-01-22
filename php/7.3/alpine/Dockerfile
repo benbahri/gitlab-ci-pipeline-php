@@ -50,4 +50,6 @@ USER $IMAGE_USER
 
 WORKDIR /var/www/html
 
+EXPOSE 80 8000
+
 CMD ["php", "-a"]
